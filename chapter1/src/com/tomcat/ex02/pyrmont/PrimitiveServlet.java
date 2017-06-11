@@ -18,9 +18,9 @@ public class PrimitiveServlet implements Servlet {
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
         System.out.println("from service");
-        PrintWriter out = response.getWriter();
-        out.println("Hello.Roses are red");
-        out.println("Violets are blue");
+//        PrintWriter out = response.getWriter();
+//        out.println("Hello.Roses are red");
+//        out.println("Violets are blue");
     }
 
     @Override
